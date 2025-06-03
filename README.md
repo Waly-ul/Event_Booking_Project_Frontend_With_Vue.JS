@@ -37,6 +37,7 @@ This frontend project is developed using **Vue.js** and serves as the client-sid
 ## This project also requires pusher notifications setup:
 - Go to main.js and update your credentials:
 
+    ```bash
     import Echo from 'laravel-echo';
     import Pusher from 'pusher-js';
 
@@ -46,7 +47,7 @@ This frontend project is developed using **Vue.js** and serves as the client-sid
     broadcaster: 'pusher',
     key: 'your pusher app key',        
     cluster: 'your pusher app cluster',             
-    forceTLS: true                      // Enable TLS for secure connection
+    forceTLS: true               
     });
 
 
