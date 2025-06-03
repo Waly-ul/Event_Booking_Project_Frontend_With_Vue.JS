@@ -7,10 +7,12 @@
 
         const apiUrl = 'http://127.0.0.1:8000/'
 
+
         onMounted(async () => {  
             const user = localStorage.getItem('user')
             loggedUser.value = JSON.parse(user)
             
+            // Notifications comes from api via pusher channels
             const channel = window.Echo.channel('booking-channel');
             channel.listen('.booking-updated', (data) => {
               toast.success(data.bookingData.user.name, {

@@ -15,8 +15,7 @@
             if(response.status){
                 events.value = response.data.data;
             }
-
-            // console.log(events);
+            
         }catch(error){
             console.log(error)
         }

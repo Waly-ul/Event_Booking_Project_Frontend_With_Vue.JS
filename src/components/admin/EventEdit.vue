@@ -23,7 +23,6 @@
                 event.value = response.data.data;
             })
         }
-        // console.log(event)
     })
 
     const updateEvent = () =>{

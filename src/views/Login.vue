@@ -42,7 +42,6 @@
         }, 2000)
     }
     }catch(error){
-      // console.log(error);
       toast.error("Validation Error",{
         position: 'top-right'
       })

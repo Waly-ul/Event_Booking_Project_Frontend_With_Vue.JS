@@ -23,7 +23,6 @@
                 booking.value = response.data.data;
             })
         }
-        // console.log(event)
     })
 
     const updateBooking = () =>{
