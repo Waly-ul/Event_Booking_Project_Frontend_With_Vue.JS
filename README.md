@@ -61,7 +61,7 @@ This frontend project is developed using **Vue.js** and serves as the client-sid
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/your-repo-name.git
+git clone https://github.com/Waly-ul/Event_Booking_Project_Frontend_With_Vue.JS.git
 
 # Navigate into the project directory
 cd your-repo-name
